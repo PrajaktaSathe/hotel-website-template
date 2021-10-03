@@ -18,7 +18,6 @@ body {
     width: 100%;
     padding:20px 30px;
     font-size: 20px;
-    
 }
 
 .header a {
@@ -32,7 +31,6 @@ body {
 
 .header-right {
     float: right;
-    
 }
 
 .header-right a {
@@ -79,18 +77,16 @@ body {
 
 /* Booking section styling */
 .booking-section {
-    /* position: absolute; */
     background-color: rgb(255, 224, 255);
     width: 70%;
     height: 110px;
-    /* margin: -60px auto 0 auto; */
     margin: 10px auto 0 auto;
     left: 0;
     right: 0;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 3;
-    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
 .booking-section a {
@@ -200,48 +196,48 @@ body {
 /* Rooms section styling */
 .section-title-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 70px;
     margin-left: 155px;
     margin-right: 110px;
+    align-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
 .section-desc {
     margin-left: 155px;
     margin-right: 110px;
+    text-align: justify;
 }
 
 .roomOne, .roomTwo, .roomThree {
     width: 100%;
+    background-color: rgb(255, 224, 255);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
-.roomOne {
-    grid-column: 1;
+.roomOne div, .roomTwo div, .roomThree div {
+    height: 210px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 
-.roomOne span {
-    background-image: url();
+.roomOne div {
+    background-image: url("images/room_one.jpg");
 }
 
-.roomTwo span {
-    background-image: url();
+.roomTwo div {
+    background-image: url("images/room_two.jpg");
 }
 
-.roomThree span {
-    background-image: url();
-}
-
-.roomTwo {
-    grid-column: 2;
-}
-
-.roomThree {
-    grid-column: 3;
+.roomThree div {
+    background-image: url("images/room_three.jpg");
 }
 
 .roomOne p, .roomTwo p, .roomThree p {
-    
+    padding: 15px;
 }
-
-/* .roomOne img, .roomTwo img, .roomThree img {
-    width: 35%;
-} */
