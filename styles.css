@@ -67,7 +67,7 @@ body {
 }
 
 .hero-button a {
-    background-color: rgb(255, 242, 255);
+    background-color: rgb(255, 224, 255);
     font-size: 20px;
     padding: 15px 60px;
     border-radius: 10px;
@@ -76,11 +76,15 @@ body {
 }
 
 /* Booking section styling */
+.booking-main {
+    margin: 20px 0 80px 0;
+}
+
 .booking-section {
     background-color: rgb(255, 224, 255);
     width: 70%;
     height: 110px;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
     left: 0;
     right: 0;
     border-radius: 10px;
@@ -138,11 +142,17 @@ body {
 }
 
 /* Services section */
+.service-section {
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom, rgba(255, 242, 255, 1), rgb(165, 62, 160));
+}
+
 .section-title {
-    margin-top: 50px;
+    margin: 0px;
     padding-bottom: 0;
     font-family: 'Eagle Lake', cursive;
     color: black;
+    font-size: 50px;
 }
 
 .services-section-grid {
@@ -194,6 +204,11 @@ body {
 }
 
 /* Rooms section styling */
+.room-section {
+    margin-top: 0;
+    background-image: linear-gradient(to top, rgba(255, 242, 255, 1), rgba(165, 62, 160));
+}
+
 .section-title-grid {
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -202,18 +217,18 @@ body {
     margin-right: 110px;
     align-content: space-evenly;
     justify-content: space-between;
-    
 }
 
 .section-desc {
     margin-left: 155px;
     margin-right: 110px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .roomOne, .roomTwo, .roomThree {
     width: 100%;
-    background-color: rgb(255, 224, 255);
+    background-color: rgb(255, 235, 255);
     border-radius: 10px;
     box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
 }
@@ -240,4 +255,24 @@ body {
 
 .roomOne p, .roomTwo p, .roomThree p {
     padding: 15px;
+    font-size: 18px;
+}
+
+/* About Us Section, Contact Us Section Styling */
+.about-us {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom, rgba(255, 242, 255, 1), rgba(165, 62, 160));
+}
+
+.about-us div, .contact-us div {
+    margin: 0 110px 0 155px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact-us {
+    padding-top: 45px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(to top, rgba(255, 242, 255, 1), rgba(165, 62, 160));
 }
