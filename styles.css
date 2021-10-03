@@ -238,7 +238,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 10px 0;
+    margin-bottom: 20px;
 }
 
 .roomOne div {
@@ -251,6 +252,13 @@ body {
 
 .roomThree div {
     background-image: url("images/room_three.jpg");
+}
+
+.roomOne a, .roomTwo a, .roomThree a {
+    font-size: 20px; font-weight: bold; padding-bottom: 0;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
 }
 
 .roomOne p, .roomTwo p, .roomThree p {
