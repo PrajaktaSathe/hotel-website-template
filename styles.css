@@ -40,7 +40,7 @@ body {
 /* Hero section styling */
 .hero-section {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nik-lanus-YMOHw3F1Hdk-unsplash.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/runnyrem-LfqmND-hym8-unsplash.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +145,7 @@ body {
     color: black;
 }
 
-.services-section {
+.services-section-grid {
     display: grid;
     max-width: 80%;
     margin-left: 135px;
