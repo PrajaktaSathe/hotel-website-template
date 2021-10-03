@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 242, 255);
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Header styling */
+.header {
+    background-color: rgb(255, 251, 252);
+    min-height: 60px;
+    width: 100%;
+    padding:20px 30px;
+    font-size: 20px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    
+}
+
+.header-right a {
+    padding: 10px;
+}
+
+/* Hero section styling */
+.hero-section {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nik-lanus-YMOHw3F1Hdk-unsplash.jpg");; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.hero-text, .section-title {
+    padding: 50px;
+    padding-left: 150px;
+    text-align: left;
+    font-size: 65px;
+    color: white;
+}
+
+.small-hero-text {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.hero-button {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.hero-button a {
+    background-color: rgb(255, 242, 255);
+    font-size: 20px;
+    padding: 15px 60px;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Booking section styling */
+.booking-section {
+    /* position: absolute; */
+    background-color: rgb(255, 224, 255);
+    width: 70%;
+    height: 110px;
+    /* margin: -60px auto 0 auto; */
+    margin: 10px auto 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 3;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.1);
+}
+
+.booking-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.check-in-sec, .check-out-sec {
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.check-in-sec {
+    grid-column: 1;
+}
+
+.check-in-sec input, .check-out-sec input {
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    border: rgb(226, 226, 226) solid 2px;
+}
+
+.check-in-sec div, .check-out-sec div {
+    padding-bottom: 5px;
+}
+
+.check-out-sec {
+    grid-column: 2;
+}
+
+.book-btn {
+    background-color: rgb(134, 26, 129);
+    grid-column: 3;
+    text-align: center;
+    margin: 26px 15px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.book-btn a {
+    position: relative;
+    margin: 10px;
+    top: 23%;
+    height: 40px;
+    color: white;
+}
+
+/* Services section */
+.section-title {
+    margin-top: 50px;
+    padding-bottom: 0;
+    font-family: 'Eagle Lake', cursive;
+    color: black;
+}
+
+.services-section {
+    display: grid;
+    max-width: 80%;
+    margin-left: 135px;
+    margin-top: 20px;
+    grid-template-columns: 3;
+}
+
+.services-section p {
+    margin-left: 50px;
+}
+
+.serviceOne, .serviceTwo, .serviceThree, .serviceFour, .serviceFive, .serviceSix {
+    margin: 20px;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.serviceOne {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.serviceTwo {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.serviceThree {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.serviceFour {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.serviceFive {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.serviceSix {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+/* Rooms section styling */
+.section-title-grid div {
+    display: grid;
+    grid-template-columns: 3;
+    margin-left: 155px;
+    margin-right: 110px;
+}
+
+.roomOne, .roomTwo, .roomThree {
+    width: 50%;
+}
+
+.roomOne {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.roomTwo {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.roomThree {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.roomOne img, .roomTwo img, .roomThree img {
+    width: 35%;
+}
