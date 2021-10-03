@@ -42,7 +42,7 @@ body {
 /* Hero section styling */
 .hero-section {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nik-lanus-YMOHw3F1Hdk-unsplash.jpg");; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nik-lanus-YMOHw3F1Hdk-unsplash.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,32 +198,50 @@ body {
 }
 
 /* Rooms section styling */
-.section-title-grid div {
+.section-title-grid {
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: auto auto auto;
+    margin-left: 155px;
+    margin-right: 110px;
+}
+
+.section-desc {
     margin-left: 155px;
     margin-right: 110px;
 }
 
 .roomOne, .roomTwo, .roomThree {
-    width: 50%;
+    width: 100%;
 }
 
 .roomOne {
-    grid-row: 1;
     grid-column: 1;
 }
 
+.roomOne span {
+    background-image: url();
+}
+
+.roomTwo span {
+    background-image: url();
+}
+
+.roomThree span {
+    background-image: url();
+}
+
 .roomTwo {
-    grid-row: 1;
     grid-column: 2;
 }
 
 .roomThree {
-    grid-row: 1;
     grid-column: 3;
 }
 
-.roomOne img, .roomTwo img, .roomThree img {
-    width: 35%;
+.roomOne p, .roomTwo p, .roomThree p {
+    
 }
+
+/* .roomOne img, .roomTwo img, .roomThree img {
+    width: 35%;
+} */
