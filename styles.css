@@ -302,3 +302,15 @@ body {
     padding-bottom: 70px;
     background-image: linear-gradient(to top, rgba(255, 242, 255, 1), rgba(165, 62, 160));
 }
+
+/* Footer styling */
+.footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer div {
+    padding-top: 10px;
+}
