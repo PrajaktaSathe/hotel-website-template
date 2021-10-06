@@ -74,7 +74,7 @@ body {
     font-size: 20px;
 }
 
-.hero-button a {
+.hero-button a, .book-btn a {
     transition: all 1s;
 }
 
@@ -136,21 +136,28 @@ body {
 }
 
 .book-btn {
-    background-color: rgb(134, 26, 129);
+    
     grid-column: 3;
     text-align: center;
-    margin: 26px 15px;
-    border-radius: 10px 0;
-    font-size: 23px;
-    font-weight: bolder;
+    margin: 0;
+    top: 13px;
+    position: relative;
 }
 
 .book-btn a {
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: rgb(134, 26, 129);
     position: relative;
     margin: 10px;
-    top: 23%;
-    height: 40px;
     color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 10px 0;
+}
+.book-btn a:hover {
+    background-color:rgb(245 147 240);
+    color: #000;
 }
 
 /* Services section */
@@ -301,6 +308,10 @@ body {
     padding-top: 45px;
     padding-bottom: 70px;
     background-image: linear-gradient(to top, rgba(255, 242, 255, 1), rgba(165, 62, 160));
+}
+.contact-us a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Footer styling */
